@@ -14,7 +14,7 @@
 
 ## 下载与安装
 
-进入 [最新版本 Releases](https://github.com/yangyiyu789-web/disk-release/releases/latest)，展开 **Assets**，下载 `简单查盘器-安装包-1.1.3.exe`，按提示安装到本机磁盘。普通使用只需安装包；`Source code` 和源码 ZIP 面向希望查看或修改代码的人。
+进入 [最新版本 Releases](https://github.com/yangyiyu789-web/disk-release/releases/latest)，展开 **Assets**，下载 `SimpleDiskChecker-Setup-1.1.3.exe`，按提示安装到本机磁盘。普通使用只需安装包；`Source code` 和源码 ZIP 面向希望查看或修改代码的人。
 
 - 系统：**64 位 Windows 10 / 11**，**.NET Framework 4.8 或更新版本**；不支持 ARM64。
 - 仅为当前用户安装，可选创建桌面快捷方式；安装完成不自动启动。
