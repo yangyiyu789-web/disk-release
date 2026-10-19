@@ -1,0 +1,42 @@
+# Local build output and separately installed build tools
+/bin/
+/dist/
+/tools/
+/release-artifacts/
+**/obj/
+
+# Generated test executables, captures and results
+/tests/*.exe
+/tests/*.dll
+/tests/*.pdb
+/tests/*.log
+/tests/*.png
+/tests/*-results.json
+/tests/packaged-worker-*/
+/tests/results/
+/tests/output/
+/tests/previews*/
+/tests/*-errors.txt
+/tests/*.stderr.txt
+/tests/*.stdout.txt
+
+# Other compiler and temporary output
+*.pdb
+*.obj
+*.cache
+*.tmp
+*.temp
+*.bak
+*~
+
+# Local editor and Windows metadata
+/.vs/
+/.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+
+# Keep public screenshots and the application icon in source control
+!/docs/images/*.png
+!/src/app.ico
