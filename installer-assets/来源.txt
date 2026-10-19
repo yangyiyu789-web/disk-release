@@ -1,0 +1,18 @@
+安装器构建依赖来源（不随产品安装）
+
+Inno Setup 6.7.3
+官网：https://jrsoftware.org/isdl.php
+官网列出的官方发行文件：
+https://github.com/jrsoftware/issrc/releases/download/is-6_7_3/innosetup-6.7.3.exe
+文件 SHA256：9C73C3BAE7ED48D44112A0F48E66742C00090BDB5BEF71D9D3C056C66E97B732
+下载后已验证 Authenticode：Valid，签名发布者 Pyrsys B.V.
+编译器仅通过 /PORTABLE=1 静默展开在 tools\InnoSetup，不注册到系统。
+
+简体中文语言文件 ChineseSimplified.isl
+官网翻译索引：https://jrsoftware.org/files/istrans/
+采用官方源码仓库 6.7.3 标签中的版本：
+https://raw.githubusercontent.com/jrsoftware/issrc/is-6_7_3/Files/Languages/Unofficial/ChineseSimplified.isl
+保留文件原有维护者和翻译说明。
+
+产品安装包包含 DiskRelease.exe、可选运行时配置、中文使用说明、应用图标、开源许可与第三方声明，以及安装器生成的卸载器。
+不包含 Inno Setup 编译器、源文件、测试脚本或任何联网下载步骤。
